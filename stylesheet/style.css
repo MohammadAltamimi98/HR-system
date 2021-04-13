@@ -1,0 +1,110 @@
+
+body {
+    background-image: url("../images/thumbnail.jpg");
+    
+}
+
+
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+table,td,tr,th{
+    border:solid;
+    padding:10px;
+    
+
+}
+
+#tablePlace{
+    background-color:#00000096 ;
+    color:#fff;
+    /* border:solid red; */
+    width:520px;
+    position:relative;
+    bottom:270px;
+    left:625px;
+    padding:20px;
+    
+
+}
+
+table{
+    border-collapse: collapse;
+    border:solid thin;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tot{
+    border: thin solid;
+    padding:20px;
+    width:100px;
+}
+
+header{
+    background-color:#00000096 ;
+    color:#fff;
+    padding: 15px;
+    margin-bottom:45px;
+}
+
+
+footer{
+    position: relative;
+    bottom:-300px;
+    text-align: center;
+    padding:15px;
+    color:#fff;
+    margin-top:-500px;
+    /* border: solid; */
+}
+
+#form{
+    background-color:#00000096 ;
+    color:#fff;
+    /* border: solid red; */
+    width:300px;
+    height:340px;
+    position:relative;
+    bottom:-75px;
+    text-align: center;
+    left:200px;
+    padding:20px;
+}
+
+input[type="submit"]{
+    padding:10px;
+    width:165px;
+    margin-top:50px;
+}
+
+#form p{
+    font-size: large;
+    position: relative;
+}
+
+label{
+    display: block;
+    position: relative;
+    right:70px;
+    margin-bottom: -10px;;
+    
+}
+
+label h3{
+    position: relative;
+    left:20px;
+}
+
+select{
+    position: relative;
+    right:5px;
+}
+input{
+    margin-bottom: 10px;
+}

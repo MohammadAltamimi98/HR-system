@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>HR-System</title>
+</head>
+<body>
+    <header> <h1> HR-System</h1></header>
+    <main>
+
+    </main>
+<form id="form">
+    <p> Add Employee</p><br> <br>
+    <fieldset>
+        <label for="Name">Name</label><br>
+        <input type="text" id="Name" name="Name">
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="department"><h3>Department</h3></label><br>
+        <select id="department">
+            <option value="informationTechnology">Information Technology</option>
+            <option value="callCenter">Call Center</option>
+            <option value="humanResources">Human Resources</option>
+            <br><br>
+        </select>
+<br><br>
+        <input type="submit" id="submitButton" name="submitButton">
+    </fieldset>
+</form>
+
+
+<div id="tablePlace">
+    <table id="table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+    </table>
+    <div id="tot"><p></p></div>
+</div>
+
+
+    <footer>
+        &copy;ASAC 201d19 Team
+    </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
