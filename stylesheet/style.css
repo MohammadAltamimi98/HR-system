@@ -55,12 +55,13 @@ header{
 
 
 footer{
-    position: relative;
+    position: fixed;
     bottom:-300px;
     text-align: center;
     padding:15px;
     color:#fff;
     margin-top:-500px;
+
     /* border: solid; */
 }
 
